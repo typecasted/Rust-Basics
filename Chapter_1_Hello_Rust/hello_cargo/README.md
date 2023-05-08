@@ -1,4 +1,4 @@
-`# Hello Cargo!
+# Hello Cargo!
 
 - In this section we will learn about cargo.
 - Cargo is a package manager and build system for Rust. 
@@ -6,7 +6,7 @@
   - handling dependencies
   - building the code
   - etc
-`
+
 ## Installation
 <!-- TODO --> add installation steps.
 
@@ -100,4 +100,4 @@ $ cargo check
 - *cargo check* is much faster than *cargo build* because it skips the step of producing an executable. If you’re continually checking your work while writing the code, using *cargo check* will speed up the process of letting you know if your project is still compiling.
 
 ### Building for Release
-- When your project is finally ready for release, you can use *cargo build --release* to compile it with optimizations. This command will create an executable in *target/release* instead of *target/debug*.
+- When your project is finally ready for release, you can use *cargo build --release* to compile it with optimizations. This command will create an executable in *target/release* instead of target/debug.
