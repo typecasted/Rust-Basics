@@ -15,4 +15,4 @@
 5. And it will prompt the output "Hello, Rust!" on the screen.
 
 
-==! if anyone wants to add "How to run a Rust program" for mac and linux pls feel free to add==
+**! if anyone wants to add "How to run a Rust program" for mac and linux pls feel free to add !**
