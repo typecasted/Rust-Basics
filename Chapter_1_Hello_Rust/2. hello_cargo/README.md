@@ -41,6 +41,7 @@ fn main() {
   
 #### 2. target 
 - target directory will contain all the generated files and output files in it.
+- this dir will be created when you build the cargo project.
 
 #### 3 .gitignore
 - When we create a cargo project, git is by default initialized and gitignore file is created.
