@@ -7,6 +7,8 @@ fn main() {
     mutable_variable();
 
     shadow_variable();
+
+    const_variable();
 }
 
 /// [mutable_variable] function will show the use mutable variable
@@ -32,4 +34,14 @@ fn shadow_variable() {
     let shadow_var = "Hello, World";
 
     println!("after shadowing : {shadow_var}");
+}
+
+fn const_variable() {
+
+    // name the const variable in uppercase (just for the sake of good practice)
+    // must define the datatype of the const, otherwise it will prompt error.
+    // const variable can't be changed or shadowed.
+    const CONST_VARIABLE : u32 = 10;
+
+    println!("const variable : {CONST_VARIABLE}");
 }
