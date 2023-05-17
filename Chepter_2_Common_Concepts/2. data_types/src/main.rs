@@ -11,8 +11,7 @@ fn scaler_data_types() {
 }
 
 fn integer_types() {
-
-    // * by default an integer will be assigned as i32 type integer. 
+    // * by default an integer will be assigned as i32 type integer.
     // * meaning 32 bit signed integer which can contain value ranging from -2147483648 to 2147483647
     let x = -2147483648;
     let lowest_i32_value: i32 = -2147483648;
